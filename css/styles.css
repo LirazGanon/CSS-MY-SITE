@@ -156,25 +156,66 @@ P {
   text-decoration: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
+
   h1 {
     font-size: 35vw;
   }
+
+  hr {
+    width: 200px;
+    border-width: 30px;
+}
+
+h3{
+  font-size: 4.5rem;
+}
+
 
   .land-img {
     width: 95%;
   }
 
+.skills-img{
+  width: 300px;
+}
+
+.skills-img2{
+  width: 300px;
+  margin-left: 40px;
+}
+
   .profile-pic {
-    width: 85%;
+    width: 75%;
   }
 
-  h2 {
+  .skill-row {
+    width: auto;
+    margin: 30px 30px 70px 30px;
+
+  }
+  .btn{
     font-size: 5rem;
   }
 
+  .footer-link, .copyright{
+    font-size: 2.5rem;
+  }
+
+.nav-link, .navbar-brand{
+  font-size: 3rem;
+}
+.h2-title {
+    font-size: 10vw;
+}
+  h2 {
+    font-size: 25vw;
+  }
+
   p {
-    font-size: 2rem;
+    font-weight: lighter;
+    font-size: 3.7rem;
+    line-height: 1.5;
   }
 
   .intro {
