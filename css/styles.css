@@ -42,22 +42,21 @@ hr {
 
 P {
   font-family: 'proxima-nova', sans-serif;
-font-style: normal;
-font-weight: 100;
-line-height: 2;
-font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 2;
+  font-size: 1.3rem;
 }
-
-
 
 .h3skill {
-display: inline;
+  display: inline;
 }
 
-.intro{
+.intro {
   width: 30%;
   margin: 20px auto;
 }
+
 .skills-img {
   width: 15%;
   float: left;
@@ -80,7 +79,7 @@ display: inline;
 
 .top-container {
   background-color: #d4f4fc;
-  padding-top: 100px;
+  padding-top: 0;
 }
 
 .middle-container {
@@ -121,8 +120,7 @@ display: inline;
   text-decoration: none;
 }
 
-.footer-link:hover{
-
+.footer-link:hover {
   color: #0a6e4b;
 }
 
@@ -142,7 +140,6 @@ display: inline;
   -webkit-border-radius: 5;
   -moz-border-radius: 5;
   border-radius: 5px;
-
   color: #4f464f;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -157,4 +154,30 @@ display: inline;
   background-image: -o-linear-gradient(top, #006c7d, #008599);
   background-image: linear-gradient(to bottom, #006c7d, #008599);
   text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 35vw;
+  }
+
+  .land-img {
+    width: 95%;
+  }
+
+  .profile-pic {
+    width: 85%;
+  }
+
+  h2 {
+    font-size: 5rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  .intro {
+    width: 95%;
+  }
 }
