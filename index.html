@@ -11,29 +11,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+3:wght@300&family=Square+Peg&display=swap" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 <script src="https://kit.fontawesome.com/c1a9d640c4.js" crossorigin="anonymous"></script>
 
   <body>
     <div class="top-container">
 
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">{LG}</a>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="opacity: 0.7; background-color: #d4f4fc;">
+        <a class="navbar-brand" href="#"><img class="navbar-logo" src="images/lg.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#Skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -52,7 +52,7 @@
         <p class='intro'>I'm a web developer based in Tel-Aviv, Israel.<br> I have a passion for coding and love to create for web and mobile devices.</p>
       </div>
       <hr>
-      <div class="skills">
+      <div class="skills" id="Skills">
         <h2 class="h2skill">My Skills.</h2>
         <div class="skill-row">
           <img class="skills-img" src="images\computer.png" alt="">
@@ -76,10 +76,13 @@
     <br />
 
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/">Twitter</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <div class="bottom-container" id="Contact">
+      <p>
+        <i class="fa-brands fa-twitter fa-lg""> &nbsp&nbsp </i>
+        <i class="fa-brands fa-facebook-f fa-lg""> &nbsp&nbsp</i>
+        <i class="fa-brands fa-instagram fa-lg""> &nbsp&nbsp </i>
+        <i class="fa-solid fa-envelope fa-lg"">&nbsp&nbsp </i>
+      </p>
       <p class="copyright">© Liraz Ganon @ Hummus Coding.</p>
     </div>
 
